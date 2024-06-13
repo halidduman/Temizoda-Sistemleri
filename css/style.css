@@ -118,6 +118,7 @@ display: flex;
     }
 }
 
+
 @media (max-width: 425px ) {
     .container-fluid img {
         height: 35px;
