@@ -15,8 +15,8 @@
   
 
 .navbar{
-    background-color: #fff;
-    padding: 28px !important;
+    background-color: var(--white);
+    padding: 30px !important;
 }
 
 .container-fluid img {
