@@ -1,0 +1,36 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+:root {
+  --dark-blue: #0b2341;
+  --gray: #cfcfcf;
+  --white: #ffffff;
+  --red: #e83e4d;
+  --blue: #264b80;
+}
+
+.container-card {
+  display: grid;
+  max-width: 100%;
+  grid-template-columns: 1fr 1fr 1fr;
+  justify-content: center;
+  column-gap: 20%;
+  padding: 50px 20% 0 20%;
+}
+
+.container-card .card {
+  height: 450px;
+  width: 330px;
+  background-color: var(--red);
+  border-radius: 0%;
+}
+
+.container-card .card img {
+  height: 450px;
+  width: 330px;
+  transform: translate(20px, 20px);
+  border: 3px solid white;
+}
