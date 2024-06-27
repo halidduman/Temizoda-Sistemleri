@@ -115,12 +115,34 @@ body {
     width: 200px;
   }
 
+  #card-1 {
+    width: 200px;
+  }
+
+  #card-1 img {
+    transform: translate(0, 20px);
+    -webkit-box-shadow: 0px -10px 0px 0px rgba(0, 0, 0, 0.384);
+    -moz-box-shadow: 0px -10px 0px 0px rgba(0, 0, 0, 0.384);
+    box-shadow: 0px -10px 0px 0px rgba(0, 0, 0, 0.384);
+  }
   #card-2 {
     width: 200px;
   }
 
   #card-2 img {
+    -webkit-box-shadow: 0px -10px 0px 0px rgba(0, 0, 0, 0.384);
+    -moz-box-shadow: 0px -10px 0px 0px rgba(0, 0, 0, 0.384);
+    box-shadow: 0px -10px 0px 0px rgba(0, 0, 0, 0.384);
+  }
+  #card-3 {
+    width: 200px;
+  }
+
+  #card-3 img {
     transform: translate(0, 20px);
+    -webkit-box-shadow: 0px -10px 0px 0px rgba(0, 0, 0, 0.384);
+    -moz-box-shadow: 0px -10px 0px 0px rgba(0, 0, 0, 0.384);
+    box-shadow: 0px -10px 0px 0px rgba(0, 0, 0, 0.384);
   }
 }
 
@@ -137,6 +159,6 @@ body {
   }
 
   #card-2 img {
-    transform: translate(0, 0);
+    transform: translate(0, 20px);
   }
 }
