@@ -11,10 +11,6 @@
   padding: 30px !important;
 }
 
-.container-fluid img {
-  height: 65px;
-}
-
 .active {
   color: var(--red) !important;
 }
@@ -43,8 +39,8 @@
 
 .navbar ul li a {
   display: flex;
-  font-size: 23px;
-  font-weight: bolder;
+  font-size: 10pt;
+  font-weight: 600;
   color: var(--dark-blue);
   transition: all 0.4s;
   white-space: nowrap;

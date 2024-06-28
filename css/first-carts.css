@@ -81,7 +81,9 @@ body {
 }
 
 .mini-card {
+  text-align: center;
   display: flex;
+  flex-direction: column;
   position: absolute;
   width: 250px !important;
   height: 125px;
@@ -90,6 +92,14 @@ body {
   transform: translate(133px, 400px);
   background-color: var(--white);
   width: 200px;
+}
+
+.mini-card i {
+  font-size: 40px;
+}
+.mini-card h3 {
+  font-size: 20px;
+  font-weight: 700;
 }
 
 .blue-bg-bottom {
