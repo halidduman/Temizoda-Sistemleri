@@ -81,7 +81,7 @@
   font-weight: bold;
   background-color: var(--dark-blue);
   color: var(--white);
-  padding: 18px 100px;
+  padding: 10px 40px;
   transition: all 0.5s;
 }
 
