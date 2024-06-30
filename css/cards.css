@@ -124,27 +124,10 @@
   font-weight: 900;
 }
 
-.title-c {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  height: 375px;
-  width: 100%;
-  margin: 30px 0;
-  background-image: url("../img/görsel.png");
-  background-size: cover;
-  background-position: center;
-  text-align: center;
-}
-
 #title-h {
   color: var(--white);
   font-size: 20pt;
   font-weight: bold;
-}
-.title-c h3 {
-  font-size: 50px;
 }
 
 .title-b button {
@@ -160,15 +143,15 @@
 
 .title-b button:hover {
   color: var(--red);
-  background-color: var(--gray);
+  background-color: var(--blue);
+  border: 1px solid var(--red);
 }
 
 #title-b {
-  font-size: 10pt;
+  font-size: 13pt;
   font-weight: 500;
-  margin: auto;
+  margin: 0px auto;
   color: var(--white);
-  margin-top: 15px;
 }
 /* ! */
 
@@ -177,7 +160,7 @@
 
 .carts-3 {
   background-color: #e5eaf0;
-  padding: 1px 155px;
+  padding: 1px 10%;
 }
 
 .carts-3 h1 {
@@ -251,27 +234,28 @@
 /* cart-4-------------------------------------------------------------------- */
 
 .title-c {
+  justify-content: center;
   display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  height: 375px;
+  height: 275px;
   width: 100%;
   margin: 30px 0;
-  background-image: url("../images/görsel.png");
+  background-image: url("../images/test-img-1.png");
   background-size: cover;
   background-position: center;
   text-align: center;
-  background-color: rgba(255, 0, 0, 0.5); /* 0.5 opacity ile kırmızı renk */
+  background-color: rgba(232, 62, 77, 0.9); /* 0.5 opacity ile kırmızı renk */
   background-blend-mode: multiply; /* Karışım modu */
+}
+
+.title-c h3 {
+  font-size: 15pt;
+  font-weight: 600;
 }
 
 #title-h2 {
   color: var(--white);
   margin-bottom: 50px;
-  font-size: 50px;
-  font-weight: 900;
-}
-.title-c h3 {
-  font-size: 50px;
+  font-size: 25pt;
+  font-weight: bold;
 }

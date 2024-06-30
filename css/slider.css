@@ -20,7 +20,7 @@
 
 .slider-text {
   position: absolute;
-  transform: translate(0, 130px);
+  transform: translate(0, 160px);
   left: 0;
   background: linear-gradient(
     90deg,
@@ -59,9 +59,9 @@ p {
   font-size: 9pt;
   font-weight: bold;
   border: none;
-  margin: 50px 0 0 45px;
+  margin: 5px 0 0 45px;
   padding: 10px 25px;
-  width: 260px;
+  width: 150px;
   color: var(--white);
   transition: all 0.5s;
 }
