@@ -116,6 +116,12 @@ ul {
     font-size: 14px;
     padding: 20px 1%;
   }
+
+  .navbar {
+    background-color: var(--white);
+    padding: 0px 20px;
+    min-height: 80px;
+  }
 }
 
 @media (max-width: 1156px) {
@@ -153,5 +159,11 @@ ul {
 
   .navbar ul li a {
     justify-content: left;
+  }
+
+  .navbar {
+    background-color: var(--white);
+    padding: 0px 10px;
+    min-height: 50px;
   }
 }
