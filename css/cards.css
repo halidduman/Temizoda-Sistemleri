@@ -259,3 +259,37 @@
   font-size: 25pt;
   font-weight: bold;
 }
+
+/* card-4-responsive */
+@media (max-width: 1120px) {
+  .card-4-box {
+    height: 150px;
+    width: 200px;
+  }
+
+  .card-4-box h3 {
+    font-weight: 500;
+    font-size: 20px;
+  }
+
+  .icon-4-box i {
+    font-size: 40px;
+  }
+}
+
+@media (max-width: 900px) {
+  .card-4-box {
+    height: 100px;
+    width: 150px;
+  }
+
+  .card-4-box h3 {
+    font-weight: 400;
+    font-size: 13px;
+  }
+
+  .icon-4-box i {
+    font-size: 25px;
+  }
+}
+/* card-4-responsive */
