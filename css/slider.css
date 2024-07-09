@@ -81,7 +81,6 @@ p {
 
 @media (max-width: 769px) {
   .slider-text {
-    height: 30%;
     width: 50%;
   }
   .slider-text h1 {
@@ -101,25 +100,24 @@ p {
 
 @media (max-width: 641px) {
   .slider-text {
-    height: 25%;
     width: 50%;
   }
 
   .slider-text h1,
   p {
-    margin-top: 10px;
+    margin-top: 100px;
     margin-left: 15px;
   }
 
   .slider-text h1 {
-    font-size: 16px;
+    font-size: 20px;
   }
 
   .slider-text p {
-    font-size: 8px;
+    font-size: 16px;
   }
 
   .btn-slider {
-    display: none;
+    width: 60%;
   }
 }
