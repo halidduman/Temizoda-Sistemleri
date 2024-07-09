@@ -234,5 +234,15 @@ img {
   }
 }
 
-@media (max-width: 1441px) {
+@media (max-width: 768px) {
+  .container-card {
+    grid-template-columns: 1fr;
+  }
+
+  .gray {
+    display: flex;
+    height: 7000px;
+    margin-top: 0px;
+    top: 500px;
+  }
 }
