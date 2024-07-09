@@ -30,7 +30,7 @@
   z-index: 1;
   color: #e83e4d;
   height: 45%;
-  width: 45%;
+  width: 60%;
   transition: all 0.5s;
 }
 
@@ -75,7 +75,7 @@ p {
 @media (max-width: 1025px) {
   .slider-text {
     height: 45%;
-    width: 50%;
+    width: 60%;
   }
 }
 
@@ -85,16 +85,6 @@ p {
   }
   .slider-text h1 {
     font-size: 40px;
-  }
-
-  .slider-text p {
-    font-size: 15px;
-  }
-
-  .btn-slider {
-    margin: 30px 0 0 35px;
-    padding: 10px 25px;
-    width: 260px;
   }
 }
 
