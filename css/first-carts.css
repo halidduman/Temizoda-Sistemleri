@@ -51,10 +51,26 @@
   border: 4px solid white;
 }
 
+#card-1 img {
+  transform: translate(20px, 20px);
+  -webkit-box-shadow: -10px -10px 0px 0px rgba(0, 0, 0, 0.384);
+  -moz-box-shadow: -10px -10px 0px 0px rgba(0, 0, 0, 0.384);
+  box-shadow: -10px -10px 0px 0px rgba(0, 0, 0, 0.384);
+}
+
 #card-2 {
   width: 345px;
 }
+
+#card-1 .mini-card {
+  left: -95px;
+}
+
 #card-2 .mini-card {
+  left: -120px;
+}
+
+#card-3 .mini-card {
   left: -135px;
 }
 
@@ -64,6 +80,7 @@
   -moz-box-shadow: 0px -10px 0px 0px rgba(0, 0, 0, 0.384);
   box-shadow: 0px -10px 0px 0px rgba(0, 0, 0, 0.384);
 }
+
 #card-3 img {
   transform: translate(-20px, 20px);
   -webkit-box-shadow: 10px -10px 0px 0px rgba(0, 0, 0, 0.384);
@@ -71,19 +88,12 @@
   box-shadow: 10px -10px 0px 0px rgba(0, 0, 0, 0.384);
 }
 
-#card-3 .mini-card {
-  left: -140px;
-}
-
-#card-1 img {
-  transform: translate(20px, 20px);
-  -webkit-box-shadow: -10px -10px 0px 0px rgba(0, 0, 0, 0.384);
-  -moz-box-shadow: -10px -10px 0px 0px rgba(0, 0, 0, 0.384);
-  box-shadow: -10px -10px 0px 0px rgba(0, 0, 0, 0.384);
-}
-
 .card:hover {
   transform: translate(0, -50px);
+}
+
+img {
+  position: relative;
 }
 
 .mini-card {
@@ -92,7 +102,7 @@
   display: flex;
   flex-direction: column;
   position: absolute;
-  width: 345px !important;
+  width: 90% !important;
   height: 139px;
   left: -100px;
   top: 12px;
@@ -104,6 +114,7 @@
 .mini-card i {
   font-size: 40px;
 }
+
 .mini-card h3 {
   font-size: 10pt;
   font-weight: bold;
@@ -114,11 +125,9 @@
   height: 250px;
 }
 
-/* yazılar */
 .title-1 {
   text-align: center;
   margin-top: 150px;
-
   margin-bottom: 50px;
 }
 
@@ -137,15 +146,59 @@
   margin-top: -75px;
 }
 
-@media (max-width: 1100px) {
+@media (max-width: 1441px) {
+  .container-card .card img {
+    height: 100%; /* Görsellerin yüksekliğini ayarlayın */
+    width: 100%; /* Görsellerin genişliğini ayarlayın */
+  }
   .container-card .card {
     height: 300px;
-    width: 200px;
+    width: 220px !important;
+  }
+
+  .blue-bg {
+    height: 380px;
+  }
+
+  #card-2 {
+    width: 190px !important;
+  }
+
+  #card-1 img {
+    transform: translate(20px, 18px) !important;
+  }
+  #card-2 img {
+    transform: translate(-15px, 18px) !important;
+  }
+  #card-3 img {
+    transform: translate(-20px, 18px) !important;
+  }
+
+  #card-1 .mini-card {
+    left: -100px;
+  }
+
+  #card-2 .mini-card {
+    left: -120px;
+  }
+
+  #card-3 .mini-card {
+    left: -140px;
+  }
+
+  .mini-card {
+    top: -125px;
+    height: 90px;
+  }
+
+  .mini-card i {
+    font-size: 35px;
   }
 
   .container-card .card img {
     height: 300px;
-    width: 200px;
+    width: 225px;
+    display: block;
   }
 
   #card-1 {
@@ -153,45 +206,33 @@
   }
 
   #card-1 img {
-    transform: translate(0, 20px);
-    -webkit-box-shadow: 0px -10px 0px 0px rgba(0, 0, 0, 0.384);
-    -moz-box-shadow: 0px -10px 0px 0px rgba(0, 0, 0, 0.384);
-    box-shadow: 0px -10px 0px 0px rgba(0, 0, 0, 0.384);
+    transform: translate(10px, 20px);
+    -webkit-box-shadow: -10px -10px 0px 0px rgba(0, 0, 0, 0.384);
+    -moz-box-shadow: -10px -10px 0px 0px rgba(0, 0, 0, 0.384);
+    box-shadow: -10px -10px 0px 0px rgba(0, 0, 0, 0.384);
   }
+
   #card-2 {
     width: 200px;
   }
 
   #card-2 img {
+    transform: translate(0px, 20px);
     -webkit-box-shadow: 0px -10px 0px 0px rgba(0, 0, 0, 0.384);
     -moz-box-shadow: 0px -10px 0px 0px rgba(0, 0, 0, 0.384);
     box-shadow: 0px -10px 0px 0px rgba(0, 0, 0, 0.384);
   }
+
   #card-3 {
     width: 200px;
   }
 
   #card-3 img {
-    transform: translate(0, 20px);
-    -webkit-box-shadow: 0px -10px 0px 0px rgba(0, 0, 0, 0.384);
-    -moz-box-shadow: 0px -10px 0px 0px rgba(0, 0, 0, 0.384);
-    box-shadow: 0px -10px 0px 0px rgba(0, 0, 0, 0.384);
+    -webkit-box-shadow: 10px -10px 0px 0px rgba(0, 0, 0, 0.384);
+    -moz-box-shadow: 10px -10px 0px 0px rgba(0, 0, 0, 0.384);
+    box-shadow: 10px -10px 0px 0px rgba(0, 0, 0, 0.384);
   }
 }
 
-@media (max-width: 700px) {
-  .container-card {
-    grid-template-columns: 1fr;
-    padding: 50px 50% 0 50%;
-  }
-
-  .container-card .card {
-    height: 300px;
-    width: 250px;
-    justify-content: center;
-  }
-
-  #card-2 img {
-    transform: translate(0, 20px);
-  }
+@media (max-width: 1441px) {
 }

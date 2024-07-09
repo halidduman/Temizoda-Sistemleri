@@ -79,6 +79,7 @@
   margin-top: 50px;
   font-size: 11pt;
   font-weight: bold;
+  border: none;
   background-color: var(--dark-blue);
   color: var(--white);
   padding: 10px 40px;
