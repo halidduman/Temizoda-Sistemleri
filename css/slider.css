@@ -119,5 +119,7 @@ p {
 
   .btn-slider {
     width: 60%;
+    margin-top: 0px;
+    margin-left: 12px;
   }
 }
