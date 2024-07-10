@@ -141,7 +141,7 @@
 
 @media (max-width: 1024px) {
   .footer-container {
-    grid-template-columns: 60% 15% 30%;
+    grid-template-columns: 60% 15% 20%;
   }
 
   .footer-container .side img {
@@ -174,17 +174,30 @@
   /* end-------------------------------------------------- */
 
   .side.end {
-    padding-right: 40px;
+    padding-right: 0px;
   }
   .side.end h3 {
-    margin-left: 44px;
+    margin-bottom: 20px;
+    margin-left: 2px;
     font-weight: 500;
   }
 
   .side.end p {
     font-size: 9pt;
-    margin-left: 45px;
-    display: inline-block;
+    margin-left: 2px;
+  }
+
+  .side #line1 {
+    height: 1px;
+    width: 70px;
+    background-color: #000000;
+    position: absolute;
+    top: 85px;
+    left: 0px;
+  }
+  .side #line2 {
+    top: 85px;
+    left: 5px;
   }
 
   /* social------------------------------------------------- */
