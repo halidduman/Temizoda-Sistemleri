@@ -108,7 +108,7 @@ ul {
 /*! responsive *************************************************************/
 
 @media (max-width: 1440px) {
-  img {
+  .navbarNav img {
     height: 60px;
   }
 
@@ -125,7 +125,7 @@ ul {
 }
 
 @media (max-width: 1156px) {
-  img {
+  .navbarNav img {
     height: 40px;
   }
 
@@ -136,7 +136,7 @@ ul {
 }
 
 @media (max-width: 992.99px) {
-  img {
+  .navbarNav img {
     display: none;
   }
 

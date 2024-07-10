@@ -36,6 +36,7 @@
 
 .container-card .card {
   z-index: 1;
+  margin: 0 auto;
   margin-top: 150px;
   height: 450px;
   width: 370px;
