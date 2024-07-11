@@ -1,0 +1,72 @@
+.container-fluid {
+  padding: 0px 0px !important;
+}
+
+.container-box {
+  display: flex;
+  margin: 0;
+  justify-content: center;
+  align-items: center;
+}
+
+#banner {
+  margin-bottom: 50px;
+}
+
+#banner div {
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+  height: 75vh;
+  width: 100%;
+  background-image: url("../images/test-img-1.png");
+  background-size: cover;
+  background-position: center;
+  text-align: center;
+  background-color: rgba(36, 78, 130, 0.337); /* 0.5 opacity ile kırmızı renk */
+  background-blend-mode: multiply; /* Karışım modu */
+}
+
+#banner div h3 {
+  font-size: 74px;
+  font-weight: 900;
+  color: white;
+}
+
+#boxs.container-box {
+  align-items: center;
+}
+
+#boxs .grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  align-items: center;
+  column-gap: 20px;
+  row-gap: 20px;
+}
+
+.box {
+  position: relative;
+}
+
+#boxs .box {
+  display: flex;
+  height: 150px;
+  width: 270px;
+  border: 1px solid #0b2341;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.box img {
+  width: 80%;
+  padding-bottom: 25px;
+}
+.box h3 {
+  position: absolute;
+  top: 115px;
+  font-weight: 800;
+  font-size: 14px;
+  color: rgb(40, 40, 40);
+}
