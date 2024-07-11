@@ -75,10 +75,19 @@
   #boxs .grid {
     grid-template-columns: 1fr 1fr 1fr;
   }
+  #gizli-kutu {
+    display: none;
+  }
+  #gizli-kutu {
+    display: none !important;
+  }
 }
 @media (max-width: 870px) {
   #boxs .grid {
     grid-template-columns: 1fr 1fr;
+  }
+  #gizli-kutu {
+    display: grid !important;
   }
 }
 @media (max-width: 580px) {
@@ -88,5 +97,9 @@
 
   #banner div h3 {
     font-size: 30px;
+  }
+
+  #gizli-kutu {
+    display: none !important;
   }
 }
