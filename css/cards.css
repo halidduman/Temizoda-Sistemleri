@@ -153,6 +153,19 @@
   margin: 0px auto;
   color: var(--white);
 }
+
+#klavuz {
+  background-image: url("../images/test-img-1.png");
+  background-size: cover;
+  background-position: center;
+  background-color: rgba(
+    55,
+    101,
+    171,
+    0.618
+  ); /* 0.5 opacity ile kırmızı renk */
+  background-blend-mode: multiply; /* Karışım modu */
+}
 /* ! */
 
 /* cart-3-------------------------------------------------------------------- */
