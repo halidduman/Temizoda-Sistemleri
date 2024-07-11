@@ -70,3 +70,23 @@
   font-size: 14px;
   color: rgb(40, 40, 40);
 }
+
+@media (max-width: 1440px) {
+  #boxs .grid {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+}
+@media (max-width: 870px) {
+  #boxs .grid {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+@media (max-width: 580px) {
+  #boxs .grid {
+    grid-template-columns: 1fr;
+  }
+
+  #banner div h3 {
+    font-size: 30px;
+  }
+}
