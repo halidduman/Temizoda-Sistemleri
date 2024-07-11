@@ -341,6 +341,20 @@
     font-size: 18px;
     bottom: 100px;
   }
+
+  #title-h {
+    color: var(--white);
+    font-size: 14pt;
+    font-weight: bold;
+  }
+
+  #title-b {
+    font-size: 8pt;
+  }
+
+  #little-title {
+    padding: 0 10px;
+  }
 }
 
 /* card-4-responsive */

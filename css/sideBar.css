@@ -29,3 +29,9 @@
   background-color: aliceblue;
   transition: 0.5s;
 }
+
+@media (max-width: 1024px) {
+  .sidebar {
+    display: none;
+  }
+}

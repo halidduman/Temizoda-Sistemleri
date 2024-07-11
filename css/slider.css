@@ -95,7 +95,7 @@ p {
 
   .slider-text h1,
   p {
-    margin-top: 100px;
+    margin-top: 10px;
     margin-left: 15px;
   }
 
@@ -103,13 +103,28 @@ p {
     font-size: 20px;
   }
 
-  .slider-text p {
-    font-size: 16px;
-  }
-
   .btn-slider {
     width: 60%;
     margin-top: 0px;
     margin-left: 12px;
+  }
+
+  .slider-text h1 {
+    font-size: 30pt;
+    font-weight: bold;
+    color: #0b2341;
+  }
+
+  .slider-text p {
+    font-size: 10pt;
+    font-weight: 500;
+    left: 0px;
+  }
+
+  .btn-slider {
+    font-size: 9pt;
+    margin: 5px 0 0 12px;
+    padding: 10px 25px;
+    width: 150px;
   }
 }
