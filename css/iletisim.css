@@ -19,8 +19,15 @@ body {
   text-align: center;
 }
 
+.firs-input {
+  width: 100%;
+  grid-template-columns: 1fr !important;
+}
+
 .contact-form-container h2 {
   margin-bottom: 20px;
+  color: #3f3f3f;
+  font-weight: bold;
   display: flex;
 }
 
@@ -31,7 +38,7 @@ body {
 .contact-form .form-group input,
 .contact-form .form-group textarea {
   padding: 10px;
-  border: 2px solid #8b8b8b;
+  border: 2px solid #dddddd;
   border-radius: 10px;
   width: 100%;
   margin-bottom: 10px;
@@ -41,7 +48,7 @@ body {
 .contact-form .form-group input[type="email"],
 .contact-form .form-group input[type="tel"],
 .contact-form .form-group textarea {
-  flex: 1; /* Diğer inputların ve textarea'nın genişliği 100% olarak korundu */
+  flex: 1;
 }
 
 .contact-form .form-group input[type="text"]:last-child {
@@ -49,12 +56,16 @@ body {
 }
 
 .contact-form .form-group input[name="name"] {
-  flex: 1; /* Ad-soyad input'unun genişliği 1fr olarak ayarlandı */
+  flex: 1;
+}
+
+.btn {
+  width: 100%;
 }
 
 .contact-form button {
   margin: 50px 0;
-  display: flex;
+  float: left;
   padding: 10px 80px;
   background-color: #e83e4d;
   color: white;
@@ -92,9 +103,25 @@ body {
     grid-column: span 2;
   }
   .contact-form .form-group input[name="name"] {
-    grid-column: span 2; /* Ad-soyad input'u iki sütunu kaplayacak şekilde ayarlandı */
-    width: 100%; /* Ad-soyad input'unun genişliği %100 olarak ayarlandı */
-    margin-right: 0; /* Sağ marj sıfırlandı */
-    margin-left: 0; /* Sol marj sıfırlandı */
+    grid-column: span 2;
+    width: 100%;
+    margin-right: 0;
+    margin-left: 0;
+  }
+}
+
+@media (max-width: 600px) {
+  .btn {
+    padding: 0px 0px !important;
+  }
+
+  .contact-form button {
+    float: none;
+  }
+
+  .adres {
+    display: grid !important;
+    display: flex;
+    flex-direction: column !important;
   }
 }
