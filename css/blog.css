@@ -8,6 +8,19 @@ body {
   font-family: "Roboto", sans-serif;
 }
 
+.title-blog {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin: 25px 0;
+}
+
+.title-blog h2 {
+  font-size: 3em;
+  font-weight: bold;
+  color: #0b203d;
+}
+
 .container {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
@@ -47,20 +60,20 @@ body {
 
 .card .date {
   color: #012797;
-  font-size: 0.6em;
+  font-size: 1em;
   padding: 10px 10px 10px 0px;
   font-weight: 700;
 }
 
 .card h2 {
-  font-size: 16px;
+  font-size: 2em;
   margin: 10px 10px 10px 0px;
   color: #092340;
   font-weight: 700;
 }
 
 .card .description {
-  font-size: 0.7em;
+  font-size: 1.5em;
   font-weight: 500;
   padding: 10px 10px 10px 0px;
   color: #484848;
@@ -68,7 +81,7 @@ body {
 
 .card .read-more {
   display: block;
-  font-size: 0.6em;
+  font-size: 1.1em;
   font-weight: 400 !important;
   text-align: left;
   padding: 10px 10px 10px 0px;
