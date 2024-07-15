@@ -1,0 +1,138 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f0f2f5;
+}
+
+.color-blue {
+  background-color: #e7e8ec;
+}
+
+.container {
+  width: 80%;
+  margin: 0 auto;
+  padding: 20px 0 80px 0;
+}
+
+.logo-container {
+  text-align: left;
+  margin-bottom: 20px;
+}
+
+.logo {
+  width: 100px;
+  height: auto;
+}
+
+.container h2 {
+  margin-top: 50px !important;
+  font-size: 2em;
+  text-align: center;
+  margin-bottom: 10px;
+  font-weight: 900;
+  color: #0e223b;
+}
+
+#centered-text {
+  text-align: center;
+  padding: 0 25%;
+}
+
+.card p {
+  font-size: 1em;
+  text-align: left;
+
+  margin-bottom: 30px;
+}
+
+.card-container {
+  margin-top: 50px !important;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 60px;
+}
+
+.card {
+  background: white;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 100px 20px 20px 20px;
+  width: calc(
+    650px - 220px
+  ); /* Each card takes half of the container width minus the gap */
+  transition: transform 0.3s, box-shadow 0.3s;
+  position: relative;
+}
+
+.card.special:hover .card h3 {
+  color: white;
+}
+
+.card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+  background: #7185a6;
+}
+
+.card:hover p {
+  color: white;
+}
+.card:hover h3 {
+  color: white;
+}
+
+.icon {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  width: 50px;
+  height: 50px;
+}
+
+.card h3 {
+  font-size: 1.4em !important;
+  font-weight: 800 !important;
+  color: #0e223b;
+}
+
+.footer-container p {
+  margin-left: 45px;
+}
+
+@media (max-width: 1200px) {
+  .card-container {
+    gap: 20px 20px;
+  }
+}
+@media (max-width: 992px) {
+  .card {
+    width: calc(
+      50% - 20px
+    ); /* Each card takes half of the container width minus the gap */
+  }
+}
+
+@media (max-width: 768px) {
+  .card {
+    width: calc(50% - 20px);
+  }
+  .container h2 {
+    font-size: 1.5em;
+  }
+  .container p {
+    font-size: 0.7em;
+    padding: 0 10%;
+  }
+}
+
+@media (max-width: 480px) {
+  .card {
+    width: 100%;
+  }
+}
