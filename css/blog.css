@@ -1,0 +1,146 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+  padding: 0 6% !important;
+  justify-items: center;
+}
+
+.line-red {
+  background-color: #f93542;
+  width: 30%;
+  margin-top: 0px !important;
+  margin-bottom: 20px !important;
+  padding: 0px !important;
+  height: 4px;
+}
+
+.card {
+  background-color: #fff;
+  overflow: hidden;
+  width: 100%;
+
+  text-align: left;
+  border: none !important;
+  border-radius: 0px !important;
+}
+
+.card img {
+  width: 100%;
+  height: 230px;
+}
+
+.date {
+  margin: 0;
+  margin-top: 10px;
+}
+
+.card .date {
+  color: #012797;
+  font-size: 0.6em;
+  padding: 10px 10px 10px 0px;
+  font-weight: 700;
+}
+
+.card h2 {
+  font-size: 16px;
+  margin: 10px 10px 10px 0px;
+  color: #092340;
+  font-weight: 700;
+}
+
+.card .description {
+  font-size: 0.7em;
+  font-weight: 500;
+  padding: 10px 10px 10px 0px;
+  color: #484848;
+}
+
+.card .read-more {
+  display: block;
+  font-size: 0.6em;
+  font-weight: 400 !important;
+  text-align: left;
+  padding: 10px 10px 10px 0px;
+  color: #1739a8;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+/* pagination */
+
+.pagination {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 20px 0;
+}
+
+.page-link {
+  padding: 17px 25px !important;
+  background-color: #ebebeb !important;
+  color: #929292 !important;
+  font-weight: 800;
+  border: none !important;
+}
+
+.page-link,
+.page-next {
+  background-color: #f0f0f0;
+  border: none;
+  border-radius: 8px;
+  margin: 0 5px;
+  padding: 10px 15px;
+  cursor: pointer;
+  font-size: 1em;
+  color: #333;
+  transition: background-color 0.3s;
+}
+
+.page-link.active,
+.page-link:hover,
+.page-next:hover {
+  background-color: #ff4c4c !important;
+  color: #fff !important;
+}
+
+.page-link.active {
+  background-color: #ff4c4c;
+}
+
+.page-next {
+  background-color: transparent;
+  color: orange;
+  font-weight: bold;
+  font-size: 1.2em;
+}
+
+@media (max-width: 480px) {
+  .page-link,
+  .page-next {
+    padding: 5px 10px;
+    font-size: 0.8em;
+  }
+}
+
+@media (max-width: 768px) {
+  .container {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 480px) {
+  .container {
+    grid-template-columns: 1fr;
+  }
+}
