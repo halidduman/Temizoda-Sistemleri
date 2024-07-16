@@ -1,3 +1,53 @@
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+}
+
+.content {
+  max-width: 1300px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.content h1 {
+  text-align: center;
+  color: #ff0000 !important;
+  margin-bottom: 50px;
+  font-size: 3.5em; /* Başlık boyutunu büyüttüm */
+  font-weight: 700;
+}
+
+.content p {
+  color: #0a2543;
+  text-align: center;
+  margin-bottom: 20px;
+  font-size: 1.5em; /* Paragraf yazı boyutunu biraz büyüttüm */
+}
+
+.quote {
+  font-size: 1.8em;
+  text-align: center;
+  font-weight: 700;
+  margin: 40px 0;
+}
+
+/* Responsive ayarlar */
+@media (max-width: 768px) {
+  .content {
+    padding: 10px;
+  }
+
+  h1 {
+    font-size: 1.5em;
+  }
+
+  p {
+    font-size: 1em;
+  }
+}
+
+/* text */
+
 .date-title {
   background-color: #f93541;
   padding-top: 50px;
@@ -73,6 +123,72 @@
   margin: 0;
 }
 
+/* Responsive ayarlar */
+@media (max-width: 768px) {
+  .date-container {
+    flex-direction: column;
+    align-items: center;
+    padding: 50px 5%;
+  }
+
+  .time-line {
+    flex-direction: row;
+    gap: 50px;
+    width: 100%;
+    justify-content: center;
+  }
+
+  .line {
+    height: 5px !important;
+    width: 100px !important;
+    top: 12px;
+    left: 0;
+  }
+
+  .point {
+    height: 20px;
+    width: 20px;
+  }
+
+  .year {
+    gap: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+  }
+
+  .year h4 {
+    font-size: 1.8em;
+  }
+
+  .date-text {
+    gap: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    width: 100%;
+  }
+
+  .date-text p {
+    font-size: 1.2em;
+  }
+}
+
+@media (max-width: 480px) {
+  .date-title h2 {
+    font-size: 2.5em;
+  }
+
+  .year h4 {
+    font-size: 1.5em;
+  }
+
+  .date-text p {
+    font-size: 1em;
+  }
+}
 /* hakkımızda-görseller */
 
 .container {
