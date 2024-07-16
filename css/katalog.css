@@ -112,6 +112,7 @@ ul {
 /* Slider */
 
 .container-slider {
+  border: 1px solid black;
   position: relative;
   width: 88%;
   max-width: 1500px;

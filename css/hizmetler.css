@@ -1,0 +1,62 @@
+.container-images {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  width: 100%;
+  padding: 0 10%;
+  gap: 25px;
+  margin: 100px 0;
+  justify-content: center;
+}
+
+.container-images .card-images {
+  position: relative;
+  width: 100%;
+  padding-top: 100%; /* Kare oranını sağlamak için */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  transition: all 0.5s;
+}
+
+.container-images .card-images img {
+  position: absolute;
+  transform: translate(5%, 5%);
+
+  top: 0;
+  left: 0;
+  width: 90%;
+  height: 90%;
+  object-fit: cover; /* Görsellerin kare içinde düzgün görünmesi için */
+}
+
+.container-images .card-images:hover {
+  transform: scale(1.5);
+  z-index: 55;
+
+  box-shadow: none;
+}
+
+.container-images .card-images:hover img {
+  border-radius: 15px;
+}
+
+/* Daha küçük ekranlar için */
+@media (max-width: 768px) {
+  .container-images {
+    padding: 0 5%;
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 480px) {
+  .container-images {
+    padding: 0 2%;
+    grid-template-columns: 1fr;
+    gap: 15px;
+  }
+
+  .container-images .card-images:hover {
+    transform: scale(1.05);
+  }
+}
