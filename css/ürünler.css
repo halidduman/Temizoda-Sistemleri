@@ -68,6 +68,11 @@
   position: relative;
 }
 
+.card h3 a {
+  color: #0e223b;
+  text-decoration: none;
+}
+
 .card.special:hover .card h3 {
   color: white;
 }
@@ -76,6 +81,10 @@
   transform: translateY(-10px);
   box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
   background: #7185a6;
+}
+
+.card:hover a {
+  text-decoration: underline;
 }
 
 .card:hover p {

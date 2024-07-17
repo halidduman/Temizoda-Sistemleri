@@ -13,6 +13,10 @@ a {
   --blue: #264b80;
 }
 
+.navbar-toggler {
+  margin: 5px !important;
+}
+
 header {
   width: 100%;
 }

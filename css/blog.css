@@ -138,6 +138,10 @@ body {
   font-size: 1.2em;
 }
 
+.footer-container p {
+  margin-left: 45px;
+}
+
 @media (max-width: 480px) {
   .page-link,
   .page-next {
